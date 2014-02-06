@@ -3,8 +3,8 @@ Combs
 
 > Generate all possible array combinations
 
-[![Build Status](https://secure.travis-ci.org/sorensen/combs.png)](http://travis-ci.org/sorensen/combs) 
-[![devDependency Status](https://david-dm.org/sorensen/combs.png)](https://david-dm.org/sorensen/combs#info=dependencies)
+[![Build Status](https://secure.travis-ci.org/sorensen/combs.js.png)](http://travis-ci.org/sorensen/combs.js) 
+[![devDependency Status](https://david-dm.org/sorensen/combs.js.png)](https://david-dm.org/sorensen/combs.js#info=dependencies)
 [![NPM version](https://badge.fury.io/js/combs.png)](http://badge.fury.io/js/combs)
 
 
