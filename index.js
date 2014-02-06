@@ -1,1 +1,1 @@
-module.exports = require('./possibles')
+module.exports = require('./combs')

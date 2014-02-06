@@ -4,12 +4,12 @@
  * Module dependencies.
  */
 
-var possibles = require('./index')
+var combs = require('./index')
   , assert = require('assert')
   , ase = assert.strictEqual
   , info = require('./package.json')
 
-describe('Possibles v' + info.version, function() {
+describe('Combs', function() {
 
   function assertArray(a, b) {
     ase(a.length, b.length)
@@ -22,8 +22,8 @@ describe('Possibles v' + info.version, function() {
   }
 
   it('version', function() {
-    ase(info.version, possibles.VERSION)
-    ase(info.version, require('./possibles.min').VERSION)
+    ase(info.version, combs.VERSION)
+    ase(info.version, require('./combs.min').VERSION)
     ase(info.version, require('./bower.json').version)
   })
 
@@ -45,7 +45,7 @@ describe('Possibles v' + info.version, function() {
     , [3, 4]
     , [4]
     ]
-    var actual = possibles([1, 2, 3, 4])
+    var actual = combs([1, 2, 3, 4])
 
     assertArray(actual, expect)
   })
@@ -63,7 +63,7 @@ describe('Possibles v' + info.version, function() {
     , [3, 4]
     , [4]
     ]
-    var actual = possibles([1, 2, 3, 4], 2)
+    var actual = combs([1, 2, 3, 4], 2)
 
     assertArray(actual, expect)
   })
@@ -75,7 +75,7 @@ describe('Possibles v' + info.version, function() {
     , ['a']
     , [4]
     ]
-    var actual = possibles([1, 2, 'a', 4], 1)
+    var actual = combs([1, 2, 'a', 4], 1)
 
     assertArray(actual, expect)
   })
@@ -90,7 +90,7 @@ describe('Possibles v' + info.version, function() {
     , [ 'b', 'c' ]
     , [ 'a', 'b', 'c' ] 
     ]
-    var actual = possibles(['a', 'b', 'c'])
+    var actual = combs(['a', 'b', 'c'])
 
     assertArray(actual, expect)
   })
