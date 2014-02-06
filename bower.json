@@ -1,0 +1,23 @@
+{
+  "name": "combs",
+  "main": "combs.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sorensen/combs",
+  "authors": [
+    "Beau Sorensen <mail@beausorensen.com>"
+  ],
+  "description": "",
+  "keywords": [
+    "table",
+    "ascii",
+    "console"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "Makefile",
+    "test.js",
+    "index.js",
+    "package.json"
+  ]
+}
